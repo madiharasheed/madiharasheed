@@ -25,6 +25,8 @@ function wthrLookup($scope, $http) {
 				$scope.err = "No Data Found";
 			});
 		}else{
+
+            
 			$scope.err = "Please enter city name";
 		}
     };   
